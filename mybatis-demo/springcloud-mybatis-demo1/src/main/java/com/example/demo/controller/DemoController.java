@@ -23,7 +23,7 @@ public class DemoController {
 
     @RequestMapping("/list")
     @ResponseBody
-    public List<Test> list(){
+    public Object list(){
         return demoService.list();
     }
 
